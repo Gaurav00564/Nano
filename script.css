@@ -1,4 +1,27 @@
 body{
-   background-color: rgba(23, 22, 22, 0.863);
+   background-color: rgba(14, 13, 13, 0.863);
    color: rgb(230, 230, 236);
+
+
+}
+
+.container {
+   margin: 100px 0 0 200px;
+   width:70% ;
+   height:450px ;
+   
+   
+   gap:1px ;
+}  
+
+.container img {
+   width:10% ;
+   height:100% ;
+   object-fit: cover;
+   border-radius: 10px;
+   border: 2px solid rgb(255, 255, 255,0.6);
+   transition: all ease-in-out 0.5 sec;
+}
+.container img:hover {
+   width: 25%;
 }
